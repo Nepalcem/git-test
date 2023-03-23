@@ -1,11 +1,28 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "source": "src/js/app.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "author": "Mark",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nepalcem/git-test.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Nepalcem/git-test/issues"
+  },
+  "homepage": "https://github.com/Nepalcem/git-test#readme",
+  "description": "",
+  "dependencies": {
+    "joi": "^17.9.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }
